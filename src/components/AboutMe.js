@@ -28,7 +28,7 @@ function AboutMe() {
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
-        `I've been self taught web developer for 6 months focusing on the basics
+        I've been self taught web developer for 6 months focusing on the basics
         of coding using HTML, CSS and Python. These basic courses alongside
         Freecodecamp.com and Futurelearn.com courses. I've recently enrolled in
         Birmingham University's 6 month intensive Coding Boot Camp in September
@@ -37,7 +37,7 @@ function AboutMe() {
         currently working with HTML, CSS, JavaScript, JQuery, MySQL, Sequelize,
         Node JS, Express JS, Handlebars JS, MVC Paradigm, Heroku, Node, Npm and
         Github Im just starting React with the start of the end of phase 3.
-        Examples of my projects are below and details are on my Github Profile.`
+        Examples of my projects are below and details are on my Github Profile.
       </div>
     </div>
   );

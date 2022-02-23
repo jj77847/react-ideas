@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Quals from "./components/Quals";
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
@@ -10,25 +13,9 @@ function App() {
     <div>
       <Header />
       <Navbar />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <AboutMe />
+      <Quals />
+      <Experience />
       <Card />
       <Card />
       <Footer />

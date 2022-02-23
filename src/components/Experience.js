@@ -36,15 +36,22 @@ function Experience() {
         Nicas lvls 1 and 2, Lead Climbing and Tru Blue Autos. All aspects of gym
         inductions, cleaning, paperwork and working taking PT/Rehab Injury
         sessions, focussing on Bodyweight and TRX/functional training.
+      </div>
+
+      <div style={styles.content}>
         2018-2019: Special Needs Teaching Assistant(Autism and Deaf) - Academics
         Working with various schools in Stoke-on-Trent and all aspects of
         classroom assistant role and 1:1 support to various disabled students.
         Working mainly Autistic, Cebreal palsy and Deaf children ranging from
-        5yrs to 16yrs. 2020-2022: Stay at Home Dad - Family Commitments Looking
-        after my 4yrs and 1yrs Daughters, also retraining in the evenings and
-        nap-times as the about me section states 'self taught web developer for
-        6 months focusing on the basics of coding using mainly Futurelearn.com
-        foundational courses Jan-Feb 2021'.
+        5yrs to 16yrs.
+      </div>
+
+      <div style={styles.content}>
+        2020-2022: Stay at Home Dad - Family Commitments Looking after my 4yrs
+        and 1yrs Daughters, also retraining in the evenings and nap-times as the
+        about me section states 'self taught web developer for 6 months focusing
+        on the basics of coding using mainly Futurelearn.com foundational
+        courses Jan-Feb 2021.
       </div>
     </div>
   );

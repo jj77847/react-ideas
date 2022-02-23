@@ -31,11 +31,12 @@ function Contact() {
         Thank you for checking out my portfolio and hope to hear from you soon.
         Please click on the links below for further information.
       </div>
+
       <div>
-        Youtube: https://www.youtube.com/channel/UCneC1cNAT-2VtBQeO6gTbqg
-        GitHub: https://github.com/jj77847/
-        linkedin:https://www.linkedin.com/in/jonathan-jefferies-70916110b
-        Facebook: https://www.facebook.com/jajefferies Email:
+        - Youtube: https://www.youtube.com/channel/UCneC1cNAT-2VtBQeO6gTbqg -
+        GitHub: https://github.com/jj77847/ - linkedin:
+        https://www.linkedin.com/in/jonathan-jefferies-70916110b - Facebook:
+        https://www.facebook.com/jajefferies - Email:
         jonathanjefferies1985@gmail.com
       </div>
     </div>

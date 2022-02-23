@@ -28,14 +28,16 @@ function Education() {
     <div style={styles.card}>
       <div style={styles.heading}>Education</div>
       <div style={styles.content}>
-            2008-2009 Plymouth University, FSDC Outdoor Education - (deferred
-            2nd year due to injury)
-
-            2002-2007 Southdowns College, BTECH Nat Deploma in Outdoor Education
-            Year 1 Pass and BTECH Nat Deploma in Public Services MMP
-            
-            1998-2002 The Bourne Community College, 9 GCSE’s including English,
-            Music and ICT
+        2008-2009 Plymouth University, FSDC Outdoor Education - (deferred 2nd
+        year due to injury)
+      </div>
+      <div style={styles.content}>
+        2002-2007 Southdowns College, BTECH Nat Deploma in Outdoor Education
+        Year 1 Pass and BTECH Nat Deploma in Public Services MMP
+      </div>
+      <div style={styles.content}>
+        1998-2002 The Bourne Community College, 9 GCSE’s including English,
+        Music and ICT
       </div>
     </div>
   );

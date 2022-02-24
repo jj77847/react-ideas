@@ -31,7 +31,6 @@ function Contact() {
         Thank you for checking out my portfolio and hope to hear from you soon.
         Please click on the links below for further information.
       </div>
-
       <div>
         - Youtube: https://www.youtube.com/channel/UCneC1cNAT-2VtBQeO6gTbqg -
         GitHub: https://github.com/jj77847/ - linkedin:

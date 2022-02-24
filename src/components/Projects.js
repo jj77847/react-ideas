@@ -31,8 +31,8 @@ function Projects() {
       <div style={styles.content}>
         <p>Accessability Website</p>
         <img
-          src={require("./images/marketing-screenshot-1.png")}
           class="image"
+          src={require("./images/marketing-screenshot-1.png")}
           alt="Marketing-Accessability"
         />
       </div>
@@ -51,7 +51,7 @@ function Projects() {
       <div style={styles.content}>
         <a
           href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
-          class="btn btn-success"
+          class="l btn-success"
         >
           Code
         </a>

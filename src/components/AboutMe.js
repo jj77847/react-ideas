@@ -27,9 +27,7 @@ const styles = {
 function AboutMe() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>
-        <div id="about-me">About Me</div>
-      </div>
+      <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
         I've been self taught web developer for 6 months focusing on the basics
         of coding using HTML, CSS and Python. These basic courses alongside

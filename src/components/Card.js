@@ -27,12 +27,7 @@ function Card() {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Lorem ipsum dolor</div>
-      <div
-        style={style.image}
-        img
-        src={require("folder/image.format")}
-        alt="image not found"
-      />
+
       <div style={styles.content}>
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab

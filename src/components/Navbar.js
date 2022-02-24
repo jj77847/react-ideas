@@ -21,11 +21,21 @@ const styles = {
 function Navbar() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>About Us</div>
-      <div style={styles.heading}>Experience</div>
-      <div style={styles.heading}>Qualifications</div>
-      <div style={styles.heading}>Projects</div>
-      <div style={styles.heading}>Contact</div>
+      <div style={styles.Navbar}>
+        <a>About Us</a>
+      </div>
+      <div style={styles.Navbar}>
+        <a>Experience</a>
+      </div>
+      <div style={styles.Navbar}>
+        <a>Qualifications</a>
+      </div>
+      <div style={styles.Navbar}>
+        <a>Projects</a>
+      </div>
+      <div style={styles.Navbar}>
+        <a>Contact</a>
+      </div>
     </div>
   );
 }

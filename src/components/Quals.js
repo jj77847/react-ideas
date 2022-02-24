@@ -28,20 +28,56 @@ function Quals() {
     <div style={styles.card}>
       <div style={styles.heading}>Qualifications</div>
       <div style={styles.content}>
-        From January 2021 I have gained various qualifications in preparation
-        for University Boot Camp that started September 2021: Programming for
-        Everyone - University of Leeds - Learn to Code for the Web - University
-        Leeds - Creating a Great User Experience for Mobile Apps - University
-        Leeds - Software Development Fundamentals: Programming Languages and
-        HTML - University Leeds - Software Development Fundamentals: Web
-        Accessibility and CSS - University Leeds - Software Development
-        Fundamentals: Project Management - University Leeds - Software
-        Development Fundamentals: Web Accessibility and CSS - University Leeds -
-        HTML Certificate Course - Programming Hub Certificate - Python 3
-        Certificate Course - Programming Hub Certificate - CSS Certificate
-        Course - Programming Hub Certificate - 300hrs Responsive Web Design,
-        Developer Certification - FreeCodeCamp.org - Full Stack Web Developer -
-        Birmingham University Boot-camp (Sept 21 - March 22)
+        Programming for Everyone - University of Leeds
+      </div>
+
+      <div style={styles.content}>
+        Learn to Code for the Web - University Leeds
+      </div>
+
+      <div style={styles.content}>
+        Creating a Great User Experience for Mobile Apps - University Leeds
+      </div>
+
+      <div style={styles.content}>
+        Software Development Fundamentals: Programming
+      </div>
+
+      <div style={styles.content}>Languages and HTML - University Leeds</div>
+
+      <div style={styles.content}>
+        Software Development Fundamentals: Web Accessibility and CSS -
+        University Leeds
+      </div>
+
+      <div style={styles.content}>
+        Software Development Fundamentals: Project Management - University Leeds
+      </div>
+
+      <div style={styles.content}>
+        Software Development Fundamentals: Web Accessibility and CSS -
+        University Leeds
+      </div>
+
+      <div style={styles.content}>
+        HTML Certificate - Programming Hub Certificate
+      </div>
+
+      <div style={styles.content}>
+        Python 3 Certificate - Programming Hub Certificate
+      </div>
+
+      <div style={styles.content}>
+        CSS Certificate - Programming Hub Certificate
+      </div>
+
+      <div style={styles.content}>
+        300hrs Responsive Web Design, Developer Certification - FreeCodeCamp.org
+      </div>
+
+      <div style={styles.content}>
+        Full Stack Web Developer - Birmingham University Boot-camp (Sept 21 -
+        March 22)
       </div>
     </div>
   );

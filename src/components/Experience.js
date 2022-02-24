@@ -28,7 +28,9 @@ function Experience() {
     <div style={styles.card}>
       <div style={styles.heading}>Experience</div>
       <div style={styles.content}>
-        2012-2017: Personal Trainer and Climbing Wall Instructor - Jubilee2
+        2012-2017: Personal Trainer and Climbing Wall Instructor- Jubilee2
+      </div>
+      <div style={styles.content}>
         Training In-House Gym Instructors and Lifeguards to enable them to
         become Climbing Wall Instructors. Running Tasters, Kids club, Adult
         Climbing and disabled Abseiling sessions. Route setting the bouldering
@@ -40,6 +42,8 @@ function Experience() {
 
       <div style={styles.content}>
         2018-2019: Special Needs Teaching Assistant(Autism and Deaf) - Academics
+      </div>
+      <div style={styles.content}>
         Working with various schools in Stoke-on-Trent and all aspects of
         classroom assistant role and 1:1 support to various disabled students.
         Working mainly Autistic, Cebreal palsy and Deaf children ranging from
@@ -47,11 +51,13 @@ function Experience() {
       </div>
 
       <div style={styles.content}>
-        2020-2022: Stay at Home Dad - Family Commitments Looking after my 4yrs
-        and 1yrs Daughters, also retraining in the evenings and nap-times as the
-        about me section states 'self taught web developer for 6 months focusing
-        on the basics of coding using mainly Futurelearn.com foundational
-        courses Jan-Feb 2021.
+        2020-2022: Stay at Home Dad - Family Commitments
+      </div>
+      <div style={styles.content}>
+        Looking after my 4yrs and 1yrs Daughters, also retraining in the
+        evenings and nap-times as the about me section states 'self taught web
+        developer for 6 months focusing on the basics of coding using mainly
+        Futurelearn.com foundational courses Jan-Feb 2021.
       </div>
     </div>
   );

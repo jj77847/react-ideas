@@ -5,10 +5,13 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <h2>
-        Thank you for visiting my Portfolio and hopefully hear from you soon!
-      </h2>
-      <p>jonathanjefferies1985@gmail.com 07963508706</p>
+      <div>
+        <h3>
+          Thank you for visiting my Portfolio and hopefully hear from you soon!
+        </h3>
+      </div>
+      <div>jonathanjefferies1985@gmail.com</div>
+      <div>07963508706</div>
     </footer>
   );
 }

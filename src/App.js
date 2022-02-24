@@ -1,4 +1,7 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import './App.css';
+
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
@@ -8,6 +11,28 @@ import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+
+// import navbar from "./components/navbar"
+
+function App() {
+  return (
+    <Router>
+      <navbar />
+      <Switch>
+        <Route path='/' exact component={AboutMe} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/education' component={Education} />
+        <Route path='/experience' component={Experience} />
+        <Route path='/footer' component={Footer} />
+        <Route path='/header' component={Header} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/quals' component={Quals} />
+      </Switch>
+    </Router>
+  );
+}
+
+export default App;
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {

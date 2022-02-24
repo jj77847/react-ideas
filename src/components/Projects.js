@@ -61,5 +61,3 @@ function Projects() {
 }
 
 export default Projects;
-
-Projects.js;

@@ -44,5 +44,3 @@ function Education() {
 }
 
 export default Education;
-
-Education.js;

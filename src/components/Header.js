@@ -11,5 +11,3 @@ function Header() {
 }
 
 export default Header;
-
-Header.js;

@@ -84,5 +84,3 @@ function Quals() {
 }
 
 export default Quals;
-
-Quals.js;

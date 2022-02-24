@@ -49,5 +49,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-
-AboutMe.js;

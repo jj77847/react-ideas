@@ -1,20 +1,20 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
-// import AboutMe from "./components/AboutMe";
-// import Experience from "./components/Experience";
-// import Header from "./components/Header";
-// import Quals from "./components/Quals";
-// import Projects from "./components/Projects";
-// import Footer from "./components/Footer";
-// import Education from "./components/Education";
-// import Contact from "./components/Contact";
-// import Navbar from "./components/Navbar";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Quals from "./components/Quals";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Header />
       <Navbar />
       <AboutMe />

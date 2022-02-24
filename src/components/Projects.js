@@ -31,21 +31,16 @@ function Projects() {
       <div style={styles.content}>
         <p>title: "Accessability Website"</p>
         <div style={styles.content}></div>
-        <img>"./public/assets/image/projects/marketing-screenshot-1.png"</img>
-        <div style={styles.content}></div>
+        <img
+          src=".//Users/jonathanjefferies/react-ideas/src/assets/images/projects/marketing-screenshot-1.png"
+          alt="Marketing-Accessability"
+        ></img>
         <div style={styles.content}></div>
         <p>
           description: "Tasked with refactoring a marketing website focusing on
           accessability and readability in the html and css."
         </p>
         <div style={styles.content}></div>
-        <img
-          src="./"
-          alt="Marketing Screenshot"
-          height="300px"
-          width="300px"
-          margin="5"
-        />
         <link>"https://jj77847.github.io/marketing-acessability-website/"</link>
         <link>
           "https://github.com/jj77847/marketing-acessability-website/tree/dev"

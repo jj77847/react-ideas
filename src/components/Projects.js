@@ -39,10 +39,17 @@ function Projects() {
           accessability and readability in the html and css."
         </p>
         <div style={styles.content}></div>
-        <p>
-          link:
+        <img
+          src="./"
+          alt="Marketing Screenshot"
+          height="300px"
+          width="300px"
+          margin="5"
+        />
+        <link>"https://jj77847.github.io/marketing-acessability-website/"</link>
+        <link>
           "https://github.com/jj77847/marketing-acessability-website/tree/dev"
-        </p>
+        </link>
       </div>
       {/* //{" "}
       <div style={styles.content}>

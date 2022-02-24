@@ -18,6 +18,7 @@ const styles = {
   },
   content: {
     padding: 20,
+    textAlign: "justify",
   },
 };
 
@@ -26,37 +27,74 @@ const styles = {
 
 function Projects() {
   return (
-    <div style={styles.card}>
-      <div style={styles.heading}>Project</div>
-      <div style={styles.content}>
-        <p>Accessability Website</p>
-        <img
-          class="image"
-          src={require("./images/marketing-screenshot-1.png")}
-          alt="Marketing-Accessability"
-        />
+    // Marketing Start
+    (
+      <div style={styles.card}>
+        <div style={styles.heading}>Projects</div>
+        <div style={styles.content}>Accessability Website</div>
+        <div style={styles.image}>
+          <img
+            class="image"
+            src={require("./images/marketing-screenshot-1.png")}
+            alt="Marketing-Accessability"
+          />
+        </div>
+        <div style={styles.content}>
+          Tasked with refactoring a marketing website focusing on accessability
+          and readability in the html and css.
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://jj77847.github.io/marketing-acessability-website/"
+            class="btn btn-primary"
+          >
+            Link
+          </a>
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
+            class="l btn-success"
+          >
+            Code
+          </a>
+        </div>
       </div>
-      <div style={styles.content}>
-        Tasked with refactoring a marketing website focusing on accessability
-        and readability in the html and css.
+    ),
+    (
+      // Marketing End
+      // Password Start
+      <div style={styles.card}>
+        <div style={styles.content}>Accessability Website</div>
+        <div style={styles.image}>
+          <img
+            class="image"
+            src={require("./images/marketing-screenshot-1.png")}
+            alt="Marketing-Accessability"
+          />
+        </div>
+        <div style={styles.content}>
+          Tasked with refactoring a marketing website focusing on accessability
+          and readability in the html and css.
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://jj77847.github.io/marketing-acessability-website/"
+            class="btn btn-primary"
+          >
+            Link
+          </a>
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
+            class="l btn-success"
+          >
+            Code
+          </a>
+        </div>
       </div>
-      <div style={styles.content}>
-        <a
-          href="https://jj77847.github.io/marketing-acessability-website/"
-          class="btn btn-primary"
-        >
-          Link
-        </a>
-      </div>
-      <div style={styles.content}>
-        <a
-          href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
-          class="l btn-success"
-        >
-          Code
-        </a>
-      </div>
-    </div>
+    )
   );
 }
 

@@ -35,7 +35,7 @@ function Projects() {
         <div style={styles.image}>
           <img
             class="image"
-            src={require("./images/marketing-screenshot-1.png")}
+            src={require("./assets/images/marketing-screenshot-1.png")}
             alt="Marketing-Accessability"
           />
         </div>
@@ -61,15 +61,15 @@ function Projects() {
         </div>
       </div>
     ),
-    // Marketing End
-    // Password Start
-    ((
+    (
+      // Marketing End
+      // Password Start
       <div style={styles.card}>
         <div style={styles.content}>Password Generator</div>
         <div style={styles.image}>
           <img
             class="image"
-            src={require("./assets/img/password-generator-screenshot-2.png")}
+            src={require("./assets/images/password-generator-screenshot-2.png")}
             alt="Marketing-Accessability"
           />
         </div>
@@ -102,7 +102,7 @@ function Projects() {
         <div style={styles.image}>
           <img
             class="image"
-            src={require("./assets/img/profile-screenshot-3.png")}
+            src={require("./assets/images/profile-screenshot-3.png")}
             alt="Portfolio"
           />
         </div>
@@ -126,15 +126,17 @@ function Projects() {
             Code
           </a>
         </div>
-      </div>,
-// Portfolio End
-// Code Quiz Start
-<div style={styles.card}>
+      </div>
+    ),
+    (
+      // Portfolio End
+      // Code Quiz Start
+      <div style={styles.card}>
         <div style={styles.content}>Portfolio</div>
         <div style={styles.image}>
           <img
             class="image"
-            src={require("./assets/img/profile-screenshot-3.png")}
+            src={require("./assets/images/profile-screenshot-3.png")}
             alt="Portfolio"
           />
         </div>
@@ -158,11 +160,8 @@ function Projects() {
             Code
           </a>
         </div>
-      </div>,
-
-
-
-    ))
+      </div>
+    )
   );
 }
 

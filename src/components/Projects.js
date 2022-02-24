@@ -30,11 +30,15 @@ function Projects() {
       <div style={styles.heading}>Education</div>
       <div style={styles.content}>
         <p>title: "Accessability Website"</p>
+        <div style={styles.content}></div>
         <img>"./public/assets/image/projects/marketing-screenshot-1.png"</img>
+        <div style={styles.content}></div>
+        <div style={styles.content}></div>
         <p>
           description: "Tasked with refactoring a marketing website focusing on
           accessability and readability in the html and css."
         </p>
+        <div style={styles.content}></div>
         <p>
           link:
           "https://github.com/jj77847/marketing-acessability-website/tree/dev"

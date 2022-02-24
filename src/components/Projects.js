@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/Img.css";
-let image = require("folder/image.format");
-<img src={image.default} alt="image not found" />;
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
@@ -33,19 +31,24 @@ function Projects() {
       <div style={styles.content}>
         <p>Accessability Website</p>
         <img
-          src={require("./images/projects/marketing-screenshot-1.png")}
+          src={require("./images/marketing-screenshot-1.png")}
+          class="image"
           alt="Marketing-Accessability"
         />
-        <p>
-          description: "Tasked with refactoring a marketing website focusing on
-          accessability and readability in the html and css."
-        </p>
+      </div>
+      <div style={styles.content}>
+        Tasked with refactoring a marketing website focusing on accessability
+        and readability in the html and css.
+      </div>
+      <div style={styles.content}>
         <a
           href="https://jj77847.github.io/marketing-acessability-website/"
           class="btn btn-primary"
         >
           Link
         </a>
+      </div>
+      <div style={styles.content}>
         <a
           href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
           class="btn btn-success"

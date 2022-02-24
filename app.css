@@ -1,0 +1,148 @@
+/* media Queries */
+
+@media screen and (max-width: 576px) {
+  
+  body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  text-align:justify;
+}
+
+  .nav-container,
+  .nav-items {
+    flex-direction: column;
+  }
+
+  .nav-items {
+    align-items: center;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-text {
+    width: 100%;
+  }
+  .flex-text h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .flex-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 400px;
+  }
+}
+
+ .img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 80%;
+  display: block;
+  max-height: 400px;
+}
+
+.project-image img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  max-height: 600px;
+  padding-top: 20px;
+}
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  background-color: #11060c;
+  color: rgb(252, 252, 252);
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  min-height: 42vh;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+  scroll-behavior: auto;
+}
+
+.card-border {
+  border: solid 5px rgb(40, 7, 82);
+  color: "black";
+  width: 20%;
+  height: 30vh;
+  max-height: 35vh;
+  overflow-y: auto;
+  background-color: "white";
+  border-radius: 8;
+  position: relative;
+  display: -webkit-inline-flex;
+  box-shadow: 10px 10px #d6dbda;
+  margin-inline-start: 30px;
+  margin-top: 4vh;
+}
+
+
+Cards 
+
+const styles = {
+    media: {
+      height: 0,
+      paddingTop: '56.25%', // 16:9,
+      marginTop:'30'
+    }
+};

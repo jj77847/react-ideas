@@ -29,10 +29,10 @@ ReactDOM.render(
           <Route  path='/quals' component={Quals} />
 	    </Switch>
     </Router>,
-    document.getElementById('root'),
+    document.getElementById('root')};
 
-  function App() { 
-    return (
+function App() { 
+  return (
     <div>
       <Header />
       <Navbar />
@@ -49,19 +49,6 @@ ReactDOM.render(
 
 export default App;
 
-
-// function App() {
-//   return (
-//     <Router>
-//       <navbar />
-//       <Switch>
-//         <Route  
-//       </Switch>
-//     </Router>
-//   );
-// }
-
-// export default App;
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 

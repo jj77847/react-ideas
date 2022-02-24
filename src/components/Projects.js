@@ -61,25 +61,58 @@ function Projects() {
         </div>
       </div>
     ),
-    (
-      // Marketing End
-      // Password Start
+    // Marketing End
+    // Password Start
+    ((
       <div style={styles.card}>
-        <div style={styles.content}>Accessability Website</div>
+        <div style={styles.content}>Password Generator</div>
         <div style={styles.image}>
           <img
             class="image"
-            src={require("./images/marketing-screenshot-1.png")}
+            src={require("./assets/img/password-generator-screenshot-2.png")}
             alt="Marketing-Accessability"
           />
         </div>
         <div style={styles.content}>
-          Tasked with refactoring a marketing website focusing on accessability
-          and readability in the html and css.
+          In this project I have created a README generator using Node.js with
+          the inquirer package. This allows a user to go through a series of
+          terminal prompts and the program creates a markdown file using the
+          answers collected from the user.
+        </div>
+        <div style={styles.content}>
+          <a href="https://youtu.be/0sOWbX9wO88" class="btn btn-primary">
+            Video Link
+          </a>
         </div>
         <div style={styles.content}>
           <a
-            href="https://jj77847.github.io/marketing-acessability-website/"
+            href="https://github.com/jj77847/good-readme-generator"
+            class="l btn-success"
+          >
+            Code
+          </a>
+        </div>
+      </div>
+    ),
+    (
+      // Password Generator End
+      // Portfoilo Start
+      <div style={styles.card}>
+        <div style={styles.content}>Portfolio</div>
+        <div style={styles.image}>
+          <img
+            class="image"
+            src={require("./assets/img/profile-screenshot-3.png")}
+            alt="Portfolio"
+          />
+        </div>
+        <div style={styles.content}>
+          Portfolio of Jonathan Jefferies using example websites from GitHub,
+          Codepen, Freecodecamp and Futurelearn.
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://jj77847.github.io/portfolio/"
             class="btn btn-primary"
           >
             Link
@@ -87,14 +120,49 @@ function Projects() {
         </div>
         <div style={styles.content}>
           <a
-            href="https://github.com/jj77847/marketing-acessability-website/tree/dev"
+            href="https://github.com/jj77847/portfolio/tree/dev"
             class="l btn-success"
           >
             Code
           </a>
         </div>
-      </div>
-    )
+      </div>,
+// Portfolio End
+// Code Quiz Start
+<div style={styles.card}>
+        <div style={styles.content}>Portfolio</div>
+        <div style={styles.image}>
+          <img
+            class="image"
+            src={require("./assets/img/profile-screenshot-3.png")}
+            alt="Portfolio"
+          />
+        </div>
+        <div style={styles.content}>
+          Portfolio of Jonathan Jefferies using example websites from GitHub,
+          Codepen, Freecodecamp and Futurelearn.
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://jj77847.github.io/portfolio/"
+            class="btn btn-primary"
+          >
+            Link
+          </a>
+        </div>
+        <div style={styles.content}>
+          <a
+            href="https://github.com/jj77847/portfolio/tree/dev"
+            class="l btn-success"
+          >
+            Code
+          </a>
+        </div>
+      </div>,
+
+
+
+    ))
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/App.css";
+import "../index.css";
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case

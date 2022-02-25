@@ -5,7 +5,11 @@ import "../styles/Header.css";
 function Header() {
   return (
     <header className="header">
-      <h1>Jonathan Jefferies Portfolio</h1>
+      <h1>
+        <span class="header is-primary">Jonathan</span>
+        <span class="header is-success">Jefferies</span>
+        <span class="header is-error">Portfolio</span>
+      </h1>
     </header>
   );
 }

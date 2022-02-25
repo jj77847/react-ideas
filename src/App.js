@@ -22,10 +22,6 @@ function App() {
       <Experience />
       <Education />
       <Projects />
-      <Projects />
-      <Cards />
-      <Projects />
-      <Projects />
       <Contact />
       <Footer />
     </div>

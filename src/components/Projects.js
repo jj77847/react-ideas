@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Img.css";
+import "../styles/App.css";
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
@@ -98,7 +98,6 @@ function Projects() {
       // Password Generator End
       // Portfoilo Start
       <div style={styles.card}>
-        <div style={styles.content}>Portfolio</div>
         <div style={styles.image}>
           <img
             class="image"
